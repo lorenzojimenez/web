@@ -1,0 +1,52 @@
+/* Estilos generales para el formulario */
+form {
+    max-width: 400px; /* Limitar el ancho del formulario */
+    margin: 0 auto; /* Centrar el formulario en la página */
+    padding: 20px;
+    background-color: #f9f9f9; /* Fondo claro */
+    border: 1px solid #ddd; /* Borde sutil */
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  }
+  
+  /* Estilo para los inputs */
+  form input {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 14px; 
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para el botón */
+  form button {
+    width: 100%; 
+    padding: 10px;
+    background-color: #53af57;
+    color: white;
+    border: none; 
+    border-radius: 4px; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  form button:hover {
+    background-color: #5abf5f;
+  }
+  
+  /* Estilo para el título */
+  form h3 {
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+    font-size: 18px; 
+    color: #333; 
+    text-align: center; 
+  }
+  
+  .tamano{
+
+    width: 50rem;
+  }
