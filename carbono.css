@@ -1,0 +1,16 @@
+
+
+/* Botón deshabilitado */
+button:disabled {
+    background-color: #ccc !important; /* Color gris */
+    color: #666 !important; /* Texto gris */
+    cursor: not-allowed !important; /* Icono de cursor de no permitido */
+}
+
+/* Botón habilitado */
+button:not(:disabled) {
+    background-color: #53af57 !important; /* Color verde */
+    color: white !important; /* Texto blanco */
+    cursor: pointer !important; /* Icono de cursor */
+    transition: background-color 0.3s ease !important; /* Animación suave */
+}

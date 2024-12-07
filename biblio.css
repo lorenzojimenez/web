@@ -1,0 +1,67 @@
+#biblioteca-recursos {
+    padding: 1px 0;
+    background-color: #f9f9f9;
+
+}
+
+#biblioteca-recursos .head_title h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #53af57;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#biblioteca-recursos .head_title p {
+    font-family: 'Raleway', sans-serif;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.resource-box {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.resource-box h4 a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #53af57;
+    text-decoration: none;
+}
+
+.resource-box h4 a:hover {
+    color: #4a9e50;
+    text-decoration: underline;
+}
+
+.resource-box p {
+    font-family: 'Raleway', sans-serif;
+    color: #666;
+    margin-top: 10px;
+}
+
+.resource-box ul {
+    list-style-type: none; /* Quitar viñetas */
+    padding: 0;           /* Quitar padding por defecto */
+    margin: 10px 0;       /* Espaciado entre lista y título */
+}
+
+.resource-box ul li {
+    margin-bottom: 10px;  /* Espaciado entre puntos */
+}
+
+.resource-box ul li a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #53afad;
+    text-decoration: none;
+}
+
+.resource-box ul li a:hover {
+    text-decoration: underline;
+    color: #4a9e50; /* Color más oscuro al pasar el cursor */
+}
